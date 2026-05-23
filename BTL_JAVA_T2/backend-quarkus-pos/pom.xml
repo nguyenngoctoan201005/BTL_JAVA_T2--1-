@@ -137,6 +137,9 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <jvmArgs>-Duser.timezone=Asia/Ho_Chi_Minh</jvmArgs>
+                </configuration>
             </plugin>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
